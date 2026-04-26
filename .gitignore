@@ -1,0 +1,37 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive project data (do not commit)
+img_dataset/raw/
+img_dataset/crops/
+attendance/*.csv
+models/face_encodings.npz
+models/labels.json
+
+# Large model weights and binaries
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.engine
+
+# Logs
+*.log
